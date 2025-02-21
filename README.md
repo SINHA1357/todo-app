@@ -20,7 +20,7 @@ A simple and intuitive Todo App built using Node.js, HTML, CSS, and JavaScript. 
 
 The app will run on `http://localhost:3000` by default.
 
-## Quick Run
+## 🏃‍♀️‍➡️ Quick Run
 -cd backend
 -node server.js
 -run html
