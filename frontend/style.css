@@ -1,0 +1,92 @@
+:root {
+    --body-bg-color: #254169;
+    --container-bg-color: #b1b5d6;
+    --button-bg-color: pink;
+    --li-bg-color: #e7eaf6;
+    --input-bg-color: #e7eaf6;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: var(--body-bg-color);
+}
+
+.container {
+    margin: 50px auto;
+    width: 280px;
+    background: var(--container-bg-color);
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+}
+
+h1 {
+    margin-top: -8px;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--input-bg-color);
+    font-size: 14px;
+    font-style: italic;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    color: black;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    margin: 8px;
+    place-items: center;
+    background: var(--li-bg-color);
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 750px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 60%;
+    }
+
+    input {
+        width: 50%;
+        border-radius: 24px;
+        font-size: 12px;
+    }
+    
+    button {
+        border-radius: 12px;
+        font-size: 12px;
+    }
+
+    li {
+        height: 26px;
+        padding: 8px;
+    }
+}
